@@ -4,13 +4,13 @@
 
 回ごとにサブフォルダを分ける。ルートは最新の回へ転送するだけ。
 
-- `silverweek/` … 通話キャンペーン（2026年シルバーウィーク）
-- 次の回は `newyear/` のように足す。同じ季節を翌年もやる場合は `silverweek-2027/`
+- `sw/` … 通話キャンペーン（2026年シルバーウィーク）
+- 次の回は `newyear/` のように足す。同じ季節を翌年もやる場合は `sw-2027/`
 
-**公開 URL**: https://backstage-unei.github.io/bs-rokumelia-campaign/silverweek/
+**公開 URL**: https://backstage-unei.github.io/bs-rokumelia-campaign/sw/
 
 - **直接編集しない。** 源泉は Obsidian 側の `10_イベント/2026-09/鹿鳴りあSW通話CP/鹿鳴りあ通話キャンペーン_LP.html`
-- 更新手順: 源泉を直す → `ソース/test_lp.py` を通す → このリポジトリの `silverweek/index.html` に上書きコピー → commit & push
+- 更新手順: 源泉を直す → `ソース/test_lp.py` を通す → このリポジトリの `sw/index.html` に上書きコピー → commit & push
 - 自己完結1ファイル。外部リソース・JavaScript なし
 
 ## 公開前に外すもの
